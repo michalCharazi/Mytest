@@ -1,0 +1,156 @@
+
+
+h1{
+	font-family: sans-serif;
+	margin-left: 45px;
+}
+
+li{
+	list-style-type: none;
+	float: left;
+}
+
+#ulLinks li a{
+	float: left;
+	margin-right: 5px;
+	margin-left: 10px;
+	text-decoration: none;
+}
+
+#ulLinks li:nth-child(1) div{
+	background: url('/home/sara/Desktop/Michal/JAVASCRIPT EXERCISE/sprites.png') 18px 0;
+}
+
+#ulLinks li:nth-child(2) div{
+	background: url('/home/sara/Desktop/Michal/JAVASCRIPT EXERCISE/sprites.png') 35px 0;
+}
+
+#ulLinks li div{
+	width: 17px;
+	height: 18px;
+	float: left;
+	background: url('/home/sara/Desktop/Michal/JAVASCRIPT EXERCISE/sprites.png') 0 0;
+}
+
+body{
+	background-color: gray;
+}
+
+form{
+	background-color: lightgray;
+	border-radius: 10px;
+	width: 1000px;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+form div{
+	background-color: white;
+	padding: 15px;
+	border-radius: 6px;
+    margin: 15px 45px;
+}
+
+form div input[type=text]{
+	float: right;
+	margin-right: 20px;
+	border-radius: 18px;
+	width: 300px
+}
+
+form div input[type=password]{
+	float: right;
+	margin-right: 20px;
+	border-radius: 18px;
+	width: 300px
+}
+
+iframe{
+	float: right;
+}
+
+#divIframe:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+.Error {
+    color:#FF0000;
+    display: block;
+    margin-left: 560px;
+    border-color: red;
+}
+
+#errordiv{
+	display: none;
+	background-color: #ffe6e6;
+	margin:50px;
+    padding: 13px;
+    border-radius: 5px;
+}
+
+#errordiv h3{
+	margin: 0px;
+	display: show;
+}
+
+#errordiv p{
+	margin: 0px;
+	color: red;
+}
+
+#spanGender{
+	float:right;
+	width: 330px;
+	height: 18px;
+}
+
+span input[type=radio]{
+	float: left;
+}
+
+span span{
+	float: left;
+}
+
+span input[type=radio]:before{
+ 	content:'';
+    display:block;
+    width:50%;
+    height:50%;
+    margin: 19% 22%;    
+    border-radius:50%;  
+}
+
+span input[type=radio]:checked:before {
+  background: #ff008e;
+}
+
+#btnSubmit{
+	float:right;
+	background-color: #ff008e;
+	color: white;
+    font-size: 20px;
+    border-radius: 18px;
+    padding: 7px;
+    margin-right: 40px;
+}
+
+input[type=checkbox] + label.Error{
+	margin-left: 0px;
+	float: right;
+}
+
+input[type=checkbox]{
+	margin-left: 0px;
+	  display: inline;
+}
+
+div.checkboxDiv a{
+	text-decoration: none;
+	color: #ff008e;
+}
+
+

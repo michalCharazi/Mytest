@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registration</title>
+		<link rel="stylesheet" type="text/css" href="StyleSheet.css">
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+		<script type="text/javascript" src="Scripts.js"></script>
+	</head>
+	<body>
+		<header>
+		<div>
+			<h1>Registration</h1>
+			<ul id="ulLinks">
+			    <li>
+			    	<a href="#">New member/Login</a>
+			    	<div id="circle"></div></li>
+				<li>
+					<a href="#">Registration</a>
+					<div id="circle"></div>
+				</li>
+				<li>
+					<a href="#">Customize Journey</a>
+					<div id="circle"></div>
+				</li>
+				<li>
+					<a href="#">Select your device</a>
+					<div id="circle"></div>
+				</li>
+				<li>
+					<a href="#">Add device</a>
+					<div id="circle"></div>
+				</li>
+				<li>
+					<a href="#">Device setup</a>
+					<div id="circle"></div>
+				</li>
+			    <li>
+			    	<a href="#">Finish</a>
+					<div id="circle"></div>
+			    </li>
+			</ul>
+			</div>
+		</header>
+
+	<form id="formDeatails">		
+		<div id="errordiv">
+			<h3>Errors found</h3>
+			<p>please fix the invalid fields values before registering</p>
+		</div>
+		<div>
+			<label>First name *</label>
+			<input name="fname" id="fname" type="text"/>
+		</div>
+		<div>
+			<label>Last name *</label>
+			<input name="lname" id="lname" type="text"/>
+		</div>
+		<div>
+			<label>Nickname *</label>
+			<img src="/home/sara/Desktop/Michal/JAVASCRIPT EXERCISE/info_icon.png"/>
+			<input name="nickname" id="nickname" type="text"/>
+		</div>
+		<div>
+			<label>Gender *</label>
+			<span id="spanGender">
+			<input type="radio" name="rdoGender" id="rdoM" value="male" checked="checked" /><span>Male</span> 
+			<input type="radio" name="rdoGender" id="rdoF" value="female"/><span>Female</span> 
+			</span>
+		</div>
+		<div>
+			<label>Email (Username) *</label>
+			<input name="email" id="email" type="text"/>
+		</div>
+		<div>
+			<label>Confirm email *</label>
+			<input name="confirmEmail"
+			 type="text"/>
+		</div>
+		<div>
+			<label>Password *</label>
+			<img src="/home/sara/Desktop/Michal/JAVASCRIPT EXERCISE/info_icon.png"/>
+			<input name="password" id="password" type="password" id="txtPassword"/>
+		</div>
+		<div>
+			<label>Confirm password *</label>
+			<input name="confirmPassword" type="password"/>
+		</div>
+		<div id="divIframe">
+			<label>Terms & conditions</label>
+			<iframe src="/home/sara/Desktop/Michal/JAVASCRIPT EXERCISE/terms.html"></iframe>
+		</div>
+		<div class="checkboxDiv">
+		<input type="checkbox" name="demand1"/><span>I have read and accept the <a href="#">Privacy and Cookies Policy</a> and <a href="#">Ts&Cs and Liability Statement</a>.</span>
+		</div>
+		<div class="checkboxDiv">
+			<input type="checkbox" name="demand2"/>Please send me Fitbug promotional information.
+		</div>
+		<div class="checkboxDiv">
+			<input type="checkbox" name="demand3"/>Please send me 3rd party promotional material carefully selected by Fitbug
+		</div>
+		<input type="submit" id="btnSubmit" value="Register" />
+		</form>
+	</body>
+</html>
